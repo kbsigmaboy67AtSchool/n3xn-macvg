@@ -54,7 +54,7 @@ export async function onRequest({ request, env }) {
       },
     });
   }
-
+ 
   // Do not set a target-selection cookie. The target is fixed by server config.
   const responseHeaders = new Headers(upstream.headers);
   responseHeaders.delete("Set-Cookie");
