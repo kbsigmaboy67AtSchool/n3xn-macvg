@@ -1,0 +1,7 @@
+name = "eagler-wss-proxy"
+main = "src/index.js"
+compatibility_date = "2026-10-12"
+
+# Set EAGLER_RELAYS_JSON in Cloudflare Dashboard as a Worker variable.
+# Example JSON value:
+# {"deev":"wss://relay.deev.is/","lax1dude":"wss://relay.lax1dude.net/","shhnow":"wss://relay.shhnowisnottheti.me/"}
