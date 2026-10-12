@@ -1,5 +1,5 @@
 # Eaglercraft WSS proxy for Cloudflare Workers
-
+ 
 A fixed-destination WebSocket bridge for Eaglercraft-compatible relay endpoints.
 
 ## Why Workers?
